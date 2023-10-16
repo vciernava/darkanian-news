@@ -18,7 +18,6 @@ package-lock.json
 .idea/*
 *.iml
 projectFilesBackup
-.github
 
 .DS_Store
 
