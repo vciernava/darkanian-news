@@ -69,7 +69,14 @@
 
         {{!-- Search layout --}}
         {{#match headerStyle "Search"}}
-            <h1 class="gh-header-title is-title">{{#if @custom.header_text}}{{@custom.header_text}}{{else}}{{@site.description}}{{/if}}</h1>
+            {{#if @custom.header_text}}
+                <h1 class="gh-header-title is-title">{{@custom.header_text}}</h1>
+            {{else @site.logo}}
+                <img src="{{@site.logo}}" alt="{{@site.title}}">
+            {{else}}
+                {{@site.description}}
+                <h1 class="gh-header-title is-title">{{@site.description}}</h1>
+            {{/if}}
             <form class="gh-form">
                 {{> "icons/search"}}
                 <button class="gh-form-input" data-ghost-search>Search posts, tags and authors</button>
