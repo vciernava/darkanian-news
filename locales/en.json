@@ -6,6 +6,8 @@
     "Subscribe": "Subscribe",
     "Subscribe to {blogtitle}": "Subscribe to {blogtitle}",
     "Subscribed!": "Subscribed!",
+    "Sign in": "Sign in",
+    "Account": "Account",
     "with the email address": "with the email address",
     "Your email address": "Your email address",
     "You've successfully subscribed to": "You've successfully subscribed to",
@@ -28,5 +30,6 @@
     "% posts": "% posts",
     "1 min read": "1 min read",
     "% min read": "% min read",
-    "Search posts, tags and authors": "Search posts, tags and authors"
+    "Search posts, tags and authors": "Search posts, tags and authors",
+    "Powered by": "Powered by"
 }

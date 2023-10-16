@@ -3,9 +3,11 @@
     "Newer Posts": "Novější příspěvky",
     "Older Posts": "Starší příspěvky",
     "Page {page} of {pages}": "Strana {page} z {pages}",
-    "Subscribe": "Přihlásit se k odběru",
+    "Subscribe": "Odebírat",
     "Subscribe to {blogtitle}": "Přihlásit se k odběru {blogtitle}",
     "Subscribed!": "Přihlášen k odběru!",
+    "Sign in": "Přihlásit se",
+    "Account": "Účet",
     "with the email address": "s e-mailovou adresou",
     "Your email address": "Tvoje e-mailová adresa",
     "You've successfully subscribed to": "Úspěšně jsi se přihlásil k odběru",
@@ -28,5 +30,6 @@
     "% posts": "% příspěvků",
     "1 min read": "1 min čtení",
     "% min read": "% min čtení",
-    "Search posts, tags and authors": "Hledat příspěvky, tagy a autory"
+    "Search posts, tags and authors": "Hledat příspěvky, tagy a autory",
+    "Powered by": "Používáme"
 }
