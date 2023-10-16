@@ -9,7 +9,7 @@
     
     {{!-- Preload main styles and scripts for better performance --}}
     <link rel="preload" as="style" href="{{asset "css/screen.css"}}">
-    <link rel="preload" as="script" href="{{asset "built/source.js"}}">
+    <link rel="preload" as="script" href="{{asset "js/source.js"}}">
 
     {{!-- Theme assets - use the {{asset}} helper to reference styles & scripts, this will take care of caching and cache-busting automatically --}}
     <link rel="stylesheet" type="text/css" href="{{asset "css/screen.css"}}">
@@ -56,8 +56,6 @@
 {{/is}}
 
 {{!-- Scripts - handle responsive videos, infinite scroll, and navigation dropdowns --}}
-<script src="{{asset "js/source.js"}}"></script>
-<script src="{{asset "js/script.js"}}"></script>
 
 {{!-- Ghost outputs required functional scripts with this tag, it should always be the last thing before the closing body tag --}}
 {{ghost_foot}}
