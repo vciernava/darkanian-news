@@ -2637,7 +2637,6 @@ figcaption a {
     margin-bottom: 100px;
     padding-block: 28px;
     font-weight: 550;
-    border-block: 1px solid var(--color-border);
 }
 
 .gh-footer-logo {
