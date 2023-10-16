@@ -949,7 +949,7 @@ Search                         LOGO                    Login Subscribe
 }
 
 .gh-card-tag {
-    display: none;
+    display: block;
     margin-bottom: 4px;
     font-size: 1.2rem;
     font-weight: 500;
